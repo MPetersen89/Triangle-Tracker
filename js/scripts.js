@@ -8,25 +8,25 @@ $(document).ready(function() {
     const cplusb = c + b;
 
     if (aplusb >= c) {
-      if (a === b && c == b) {
+      if (a === b && c === b) {
         alert("Equilateral");
-      } else if (a === b || c == b || a == c) {
+      } else if (a === b || c === b || a === c) {
         alert("Isosceles");
       } else {
         alert("Scalene");
       }
     } else if (cplusa >= b) {
-      if (a === b && c == b) {
+      if (a === b && c === b) {
         alert("Equilateral");
-      } else if (a === b || c == b || a == c) {
+      } else if (a === b || c === b || a === c) {
         alert("Isosceles");
       } else {
         alert("Scalene");
       }
     } else if (cplusb >= a) {
-      if (a === b && c == b) {
+      if (a === b && c === b) {
         alert("Equilateral");
-      } else if (a === b || c == b || a == c) {
+      } else if (a === b || c === b || a === c) {
         alert("Isosceles");
       } else {
         alert("Scalene");
